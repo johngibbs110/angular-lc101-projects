@@ -1,4 +1,7 @@
 .container {
     text-align: center;
-    text-transform: uppercase;
+}
+
+h3 {
+    text-decoration: underline;
 }
