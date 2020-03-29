@@ -16,3 +16,13 @@ img {
     display: block;
     margin: auto;
 }
+
+.command {
+    color: darkgreen;   
+    font-weight: bold;
+}
+
+.instructions {
+    color: green;
+    text-align: center;
+}   
