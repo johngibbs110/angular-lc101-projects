@@ -6,9 +6,9 @@
    <button (click)="resetButtons()">Activate/Deactivate Buttons</button>
 </div>
 <br>
-<div class="jokeButtons">
+<div class="jokeButtons" (mouseout)="frustrationInactive = true">
    <h3>Joke Buttons</h3>
-   <button [class.frustration]="!frustrationInactive" [disabled]="frustrationInactive" (mouseover)="frustrationInactive = true" (mouseout)="restartFrustration()">Frustration Incarnate!</button>
+   <button [class.frustration]="!frustrationInactive" [disabled]="frustrationInactive" (mouseover)="frustrationInactive = true">Frustration Incarnate!</button>
    <hr>
    <button [class.move]="!catchMe" (click)="catchMe = !catchMe" type="button">Catch Me!</button>
 </div>
